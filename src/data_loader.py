@@ -41,9 +41,11 @@ class MultimodalDataset(Dataset):
         if  self.is_train and self.augmentation:
             image_for_clip = self.augmentation(image)
         
+        # preprocessing oleh CLIP
         clip_inputs =  self.clip_processor(images = image_for_clip, return_tensors='pt')
         pixel_values = clip_inputs['pixel_values'].squeeze(0)
 
+        #preprocessing oleh ELECTRA
         enc = self.electra_tokenizer(
             text,
             truncation=True,

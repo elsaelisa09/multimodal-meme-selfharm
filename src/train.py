@@ -2,7 +2,7 @@ import torch
 from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 
-
+# Melatih model 1 epoch
 def train_one_epoch(model, loader, optimizer, criterion, device):
     model.train()
     total_loss = 0.0
@@ -16,20 +16,25 @@ def train_one_epoch(model, loader, optimizer, criterion, device):
         mask = batch['attention_mask'].to(device)
         labels = batch['label'].to(device)
         
+        # proses forward propagation
         logits, _, _ = model(pixel, ids, mask)
         loss = model.compute_loss(logits, labels) if hasattr(model, 'compute_loss') else criterion(logits, labels)
-        
+
+        #backpropagation
         loss.backward()
+        # update parameter
         optimizer.step()
         
+        # Mengubah tensor loss menjadi angka biasa 
         total_loss += loss.item()
+        # menyimpan prediksi dan label asli
         preds.extend(logits.argmax(-1).detach().cpu().tolist())
         trues.extend(labels.detach().cpu().tolist())
     
     acc = accuracy_score(trues, preds)
     return total_loss / len(loader), acc
 
-
+# menyiapkan optimizer
 def setup_optimizer(model, learning_rate, weight_decay=1e-2):
     trainable_params = [p for p in model.parameters() if p.requires_grad]
 
@@ -41,7 +46,7 @@ def setup_optimizer(model, learning_rate, weight_decay=1e-2):
 
     return optimizer
 
-
+# setup scheduler 
 def setup_scheduler(optimizer, mode='min', factor=0.5, patience=1):
 
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(

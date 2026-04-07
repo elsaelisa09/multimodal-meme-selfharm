@@ -1,5 +1,4 @@
 import torch
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
@@ -27,7 +26,7 @@ def evaluate(model, loader, criterion, device):
         loss = model.compute_loss(logits, labels) if hasattr(model, 'compute_loss') else criterion(logits, labels)
         
         total_loss += loss.item()
-        preds.extend(logits.argmax(-1).cpu().tolist())  # `detach()` tidak diperlukan saat memakai `@torch.no_grad()`.
+        preds.extend(logits.argmax(-1).cpu().tolist())  
         trues.extend(labels.cpu().tolist())
     
     acc = accuracy_score(trues, preds)
@@ -53,7 +52,7 @@ def plot_confusion_matrix(cm, class_names=None, save_path=None):
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
     plt.show()
 
-
+# grafik history training (konvergen, undervitting atau overvitting)
 def plot_training_history(history, save_path=None):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     
@@ -95,7 +94,7 @@ def analyze_model_parameters(model):
 
     def count(p_list):
         return sum(p.numel() for p in p_list)
-
+    #encoder vision clip
     clip_vision_module = model.clip.vision_model if hasattr(model.clip, 'vision_model') else model.clip
     clip_vision_params = list(clip_vision_module.parameters())
     print(f"CLIP Vision Encoder: {count(clip_vision_params):,} params | "
