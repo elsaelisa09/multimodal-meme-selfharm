@@ -1,0 +1,53 @@
+Model: mlB-text-imagee
+Device: cpu
+Output directory: C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\output
+CSV Path: C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\dataset\fix-review-manual-label.csv
+Images directory: C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\dataset\fix-review-manual-label
+Imbalance strategy: focal
+Fusion method: concatenate
+Total samples after filtering: 2178
+Overall class distribution:
+ 0 (NON-SELF-HARM); 1525 (70.0%)
+ 1 (SELF-HARM); 653 (30.0%)
+
+Train set: 1742 samples
+ 0 (NON-SELF-HARM); 1220 (70.0%)
+ 1 (SELF-HARM); 522 (30.0%)
+
+Validation set: 436 samples
+ 0 (NON-SELF-HARM); 305 (70.0%)
+ 1 (SELF-HARM); 131 (30.0%)
+Traceback (most recent call last):
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\modeling_utils.py", line 3594, in from_pretrained
+    if not has_file(pretrained_model_name_or_path, safe_weights_name, **has_file_kwargs):
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\utils\hub.py", line 655, in has_file
+    response = get_session().head(
+TypeError: Client.head() got an unexpected keyword argument 'allow_redirects'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\src\main.py", line 474, in <module>
+    main()
+  File "C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\src\main.py", line 294, in main
+    clip_model = CLIPVisionModelWithProjection.from_pretrained(config.CLIP_MODEL_NAME)
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\modeling_utils.py", line 3644, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'openai/clip-vit-base-patch32'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'openai/clip-vit-base-patch32' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+Traceback (most recent call last):
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\modeling_utils.py", line 3594, in from_pretrained
+    if not has_file(pretrained_model_name_or_path, safe_weights_name, **has_file_kwargs):
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\utils\hub.py", line 655, in has_file
+    response = get_session().head(
+TypeError: Client.head() got an unexpected keyword argument 'allow_redirects'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\src\main.py", line 474, in <module>
+    main()
+  File "C:\Users\elsae\.vscode\Documents\Tugas Akhir\ta_if_mct\code\multimodal_fusion\src\main.py", line 294, in main
+    clip_model = CLIPVisionModelWithProjection.from_pretrained(config.CLIP_MODEL_NAME)
+  File "C:\Users\elsae\miniconda3\envs\tugasakhir\lib\site-packages\transformers\modeling_utils.py", line 3644, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'openai/clip-vit-base-patch32'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'openai/clip-vit-base-patch32' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
