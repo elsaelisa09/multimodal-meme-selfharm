@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex sn-article"] 1779710930.14638 "sn-article.aux" "sn-article.bbl" "sn-article" 1779710930.43437 2
-  "./sn-bibliography.bib" 1779710319 5123 ed827672ba553fbcf7f835508e91b250 ""
-  "sn-article.aux" 1779710922 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "sn-mathphys-num.bst" 0 -1 0 ""
+["bibtex sn-article"] 1781795636.05829 "sn-article.aux" "sn-article.bbl" "sn-article" 1781795639.02405 0
+  "./sn-bibliography.bib" 1781795586 7711 2fe52339dabadcf845c0a0c7b8ac6745 ""
+  "./sn-mathphys-num.bst" 1779710319 64164 943df446db725f71d6bb625fc0d6f4fc ""
+  "sn-article.aux" 1781795637 7862 3c65c593cc7786164291ff29f839ed67 "pdflatex"
   (generated)
   "sn-article.bbl"
   "sn-article.blg"
   (rewritten before read)
-["pdflatex"] 1779710853.00135 "c:/Users/elsae/.vscode/Documents/multimodal-meme-selfharm/sn-article-template/sn-article.tex" "sn-article.pdf" "sn-article" 1779710855.38146 0
+["pdflatex"] 1781795636.3829 "sn-article.tex" "sn-article.pdf" "sn-article" 1781795639.02483 0
   "C:/Users/elsae/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779710838 291060 cb87a81f931cc5200839a3060cadaf68 ""
   "C:/Users/elsae/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi602/tcrm1000.pk" 1779710845 11548 589d276617a9b3d50caacb60c74de83a ""
   "C:/Users/elsae/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1763451356 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -171,12 +171,11 @@
   "C:/Users/elsae/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/elsae/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/elsae/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/elsae/.vscode/Documents/multimodal-meme-selfharm/sn-article-template/sn-article.tex" 1779710319 34686 a5f8c0d7cb6ccd2f1cd042fe66de8173 ""
   "fig.eps" 1779710319 91593 5fb0e2d6f6b8d14a50f9628389d8517c ""
-  "sn-article.aux" 1779710922 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "sn-article.bbl" 1779710930 0 d41d8cd98f00b204e9800998ecf8427e "bibtex sn-article"
-  "sn-article.out" 0 -1 0 "pdflatex"
-  "sn-article.tex" 1779710319 34686 a5f8c0d7cb6ccd2f1cd042fe66de8173 ""
+  "sn-article.aux" 1781795637 7862 3c65c593cc7786164291ff29f839ed67 "pdflatex"
+  "sn-article.bbl" 1781795636 13784 96ebdfc31834765f9512c6dc2921d305 "bibtex sn-article"
+  "sn-article.out" 1781795637 3390 f33fbb0f4a758cfd46e2044fcdfde405 "pdflatex"
+  "sn-article.tex" 1781795568 51780 e82455de9bc61914310744af3a9062ac ""
   "sn-jnl.cls" 1779710319 55857 c14ef9d34b3d95356940eaf177aff85f ""
   (generated)
   "sn-article.aux"
