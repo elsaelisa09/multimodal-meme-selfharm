@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{24}
+\begin{thebibliography}{20}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -44,61 +44,30 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
-\bibitem[\protect\citeauthoryear{Kemp}{2024}]{bib1}
+\bibitem[\protect\citeauthoryear{DataReportal}{2024}]{bib1}
 \begin{botherref}
-\oauthor{\bsnm{Kemp}, \binits{S.}}:
-{Digital 2024: Global Overview Report}.
-DataReportal. Available at
-  \url{https://datareportal.com/reports/digital-2024-global-overview-report};
-  accessed 18 June 2026
+\oauthor{\bsnm{DataReportal}}:
+Digital 2024: Global Overview Report.
+\url{https://datareportal.com/reports/digital-2024-global-overview-report}.
+Accessed 2026-06-27
 (2024)
 \end{botherref}
 \endbibitem
 
 %%% 2
 \bibitem[\protect\citeauthoryear{Shifman}{2013}]{bib2}
-\begin{barticle}
-\bauthor{\bsnm{Shifman}, \binits{L.}}:
-\batitle{{Memes in a Digital World: Reconciling with a Conceptual
-  Troublemaker}}.
-\bjtitle{Journal of Computer-Mediated Communication}
-\bvolume{18}(\bissue{3}),
-\bfpage{362}--\blpage{377}
-(\byear{2013})
+\begin{botherref}
+\oauthor{\bsnm{Shifman}, \binits{L.}}:
+Memes in a digital world: Reconciling with a conceptual troublemaker.
+Journal of Computer-Mediated Communication
+\textbf{18}
+(2013)
 \doiurl{10.1111/jcc4.12013}
-\end{barticle}
+\end{botherref}
 \endbibitem
 
 %%% 3
-\bibitem[\protect\citeauthoryear{Kiela et~al.}{2020}]{bib3}
-\begin{botherref}
-\oauthor{\bsnm{Kiela}, \binits{D.}},
-\oauthor{\bsnm{Firooz}, \binits{H.}},
-\oauthor{\bsnm{Mohan}, \binits{A.}},
-\oauthor{\bsnm{Goswami}, \binits{V.}},
-\oauthor{\bsnm{Singh}, \binits{A.}},
-\oauthor{\bsnm{Ringshia}, \binits{P.}},
-\oauthor{\bsnm{Testuggine}, \binits{D.}}:
-{The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes}.
-NeurIPS 2020. Preprint at \url{https://arxiv.org/abs/2005.04790}
-(2020)
-\end{botherref}
-\endbibitem
-
-%%% 4
-\bibitem[\protect\citeauthoryear{{National Institute for Health and Care
-  Excellence}}{2022}]{bib4}
-\begin{botherref}
-\oauthor{\bsnm{{National Institute for Health and Care Excellence}}}:
-{Self-harm: Assessment, Management and Preventing Recurrence}.
-NICE guideline NG225. Available at
-  \url{https://www.nice.org.uk/guidance/ng225}; accessed 18 June 2026
-(2022)
-\end{botherref}
-\endbibitem
-
-%%% 5
-\bibitem[\protect\citeauthoryear{Marchant et~al.}{2017}]{bib5}
+\bibitem[\protect\citeauthoryear{Marchant et~al.}{2017}]{bib3}
 \begin{barticle}
 \bauthor{\bsnm{Marchant}, \binits{A.}},
 \bauthor{\bsnm{Hawton}, \binits{K.}},
@@ -109,9 +78,9 @@ NICE guideline NG225. Available at
 \bauthor{\bsnm{Purdy}, \binits{N.}},
 \bauthor{\bsnm{Daine}, \binits{K.}},
 \bauthor{\bsnm{John}, \binits{A.}}:
-\batitle{{A Systematic Review of the Relationship Between Internet Use,
-  Self-harm and Suicidal Behaviour in Young People: The Good, the Bad and the
-  Unknown}}.
+\batitle{A systematic review of the relationship between internet use,
+  self-harm and suicidal behaviour in young people: The good, the bad and the
+  unknown}.
 \bjtitle{PLOS ONE}
 \bvolume{12}(\bissue{8}),
 \bfpage{0181722}
@@ -120,106 +89,84 @@ NICE guideline NG225. Available at
 \end{barticle}
 \endbibitem
 
-%%% 6
-\bibitem[\protect\citeauthoryear{{Samaritans}}{2022}]{bib6}
-\begin{botherref}
-\oauthor{\bsnm{{Samaritans}}}:
-{Samaritans Report Reveals Dangers of Social Media's Self-harm Content}.
-Press release. Available at
-  \url{https://www.samaritans.org/news/samaritans-report-reveals-dangers-of-social-medias-self-harm-content/};
-  accessed 18 June 2026
-(2022)
-\end{botherref}
-\endbibitem
-
-%%% 7
-\bibitem[\protect\citeauthoryear{{World Health Organization}}{2025}]{bib7}
+%%% 4
+\bibitem[\protect\citeauthoryear{{World Health Organization}}{2025}]{bib4}
 \begin{botherref}
 \oauthor{\bsnm{{World Health Organization}}}:
-{Mental Health of Adolescents}.
-Fact sheet. Available at
-  \url{https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health};
-  accessed 18 June 2026
+Adolescent mental health.
+\url{https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health}.
+Accessed 2026-06-27
 (2025)
 \end{botherref}
 \endbibitem
 
+%%% 5
+\bibitem[\protect\citeauthoryear{{National Institute for Health and Care
+  Excellence}}{2022}]{bib5}
+\begin{botherref}
+\oauthor{\bsnm{{National Institute for Health and Care Excellence}}}:
+Self-harm: assessment, management and preventing recurrence.
+\url{https://www.ncbi.nlm.nih.gov/books/NBK588208/}.
+Accessed 2026-06-27
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Kiela et~al.}{2020}]{bib6}
+\begin{botherref}
+\oauthor{\bsnm{Kiela}, \binits{D.}},
+\oauthor{\bsnm{Firooz}, \binits{H.}},
+\oauthor{\bsnm{Mohan}, \binits{A.}},
+\oauthor{\bsnm{Goswami}, \binits{V.}},
+\oauthor{\bsnm{Singh}, \binits{A.}},
+\oauthor{\bsnm{Ringshia}, \binits{P.}},
+\oauthor{\bsnm{Testuggine}, \binits{D.}}:
+The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes
+(2020).
+\doiurl{10.48550/arXiv.2005.04790} .
+\url{https://arxiv.org/abs/2005.04790}
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Sharma et~al.}{2022}]{bib7}
+\begin{bchapter}
+\bauthor{\bsnm{Sharma}, \binits{S.}},
+\bauthor{\bsnm{Alam}, \binits{F.}},
+\bauthor{\bsnm{Akhtar}, \binits{M.S.}},
+\bauthor{\bsnm{Dimitrov}, \binits{D.}},
+\bauthor{\bsnm{Martino}, \binits{G.D.S.}},
+\bauthor{\bsnm{Firooz}, \binits{H.}},
+\bauthor{\bsnm{Halevy}, \binits{A.}},
+\bauthor{\bsnm{Silvestri}, \binits{F.}},
+\bauthor{\bsnm{Nakov}, \binits{P.}},
+\bauthor{\bsnm{Chakraborty}, \binits{T.}}:
+\bctitle{Detecting and understanding harmful memes: A survey}.
+In: \bbtitle{Proceedings of the Thirty-First International Joint Conference on
+  Artificial Intelligence},
+pp. \bfpage{5597}--\blpage{5606}
+(\byear{2022}).
+\doiurl{10.24963/ijcai.2022/781} .
+\burl{https://www.ijcai.org/proceedings/2022/0781.pdf}
+\end{bchapter}
+\endbibitem
+
 %%% 8
-\bibitem[\protect\citeauthoryear{Baltrusaitis et~al.}{2017}]{bib8}
+\bibitem[\protect\citeauthoryear{Baltrusaitis et~al.}{2018}]{bib8}
 \begin{botherref}
 \oauthor{\bsnm{Baltrusaitis}, \binits{T.}},
 \oauthor{\bsnm{Ahuja}, \binits{C.}},
 \oauthor{\bsnm{Morency}, \binits{L.-P.}}:
-{Multimodal Machine Learning: A Survey and Taxonomy}.
-Preprint at \url{https://arxiv.org/abs/1705.09406}
-(2017)
+Multimodal machine learning: A survey and taxonomy.
+arXiv
+\textbf{abs/1705.09406}
+(2018)
 \end{botherref}
 \endbibitem
 
 %%% 9
-\bibitem[\protect\citeauthoryear{Sharma et~al.}{2022}]{bib9}
-\begin{botherref}
-\oauthor{\bsnm{Sharma}, \binits{S.}},
-\oauthor{\bsnm{Alam}, \binits{F.}},
-\oauthor{\bsnm{Akhtar}, \binits{M.S.}},
-\oauthor{\bsnm{Dimitrov}, \binits{D.}},
-\oauthor{\bsnm{Da~San~Martino}, \binits{G.}},
-\oauthor{\bsnm{Firooz}, \binits{H.}},
-\oauthor{\bsnm{Halevy}, \binits{A.}},
-\oauthor{\bsnm{Silvestri}, \binits{F.}},
-\oauthor{\bsnm{Nakov}, \binits{P.}},
-\oauthor{\bsnm{Chakraborty}, \binits{T.}}:
-{Detecting and Understanding Harmful Memes: A Survey}.
-IJCAI-ECAI 2022 Survey Track. Preprint at
-  \url{https://arxiv.org/abs/2205.04274}
-(2022)
-\end{botherref}
-\endbibitem
-
-%%% 10
-\bibitem[\protect\citeauthoryear{Pramanick et~al.}{2021}]{bib10}
-\begin{botherref}
-\oauthor{\bsnm{Pramanick}, \binits{S.}},
-\oauthor{\bsnm{Sharma}, \binits{S.}},
-\oauthor{\bsnm{Dimitrov}, \binits{D.}},
-\oauthor{\bsnm{Akhtar}, \binits{M.S.}},
-\oauthor{\bsnm{Nakov}, \binits{P.}},
-\oauthor{\bsnm{Chakraborty}, \binits{T.}}:
-{MOMENTA: A Multimodal Framework for Detecting Harmful Memes and Their
-  Targets}.
-Findings of EMNLP 2021. Preprint at \url{https://arxiv.org/abs/2109.05184}
-(2021)
-\end{botherref}
-\endbibitem
-
-%%% 11
-\bibitem[\protect\citeauthoryear{Kumar and Nandakumar}{2022}]{bib11}
-\begin{botherref}
-\oauthor{\bsnm{Kumar}, \binits{G.K.}},
-\oauthor{\bsnm{Nandakumar}, \binits{K.}}:
-{Hate-CLIPper: Multimodal Hateful Meme Classification Based on Cross-modal
-  Interaction of CLIP Features}.
-EMNLP 2022 Workshop on NLP for Positive Impact. Preprint at
-  \url{https://arxiv.org/abs/2210.05916}
-(2022)
-\end{botherref}
-\endbibitem
-
-%%% 12
-\bibitem[\protect\citeauthoryear{Shah et~al.}{2024}]{bib12}
-\begin{botherref}
-\oauthor{\bsnm{Shah}, \binits{S.B.}},
-\oauthor{\bsnm{Shiwakoti}, \binits{S.}},
-\oauthor{\bsnm{Chaudhary}, \binits{M.}},
-\oauthor{\bsnm{Wang}, \binits{H.}}:
-{MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification}.
-EMNLP 2024. Preprint at \url{https://arxiv.org/abs/2409.14703}
-(2024)
-\end{botherref}
-\endbibitem
-
-%%% 13
-\bibitem[\protect\citeauthoryear{Radford et~al.}{2021}]{bib13}
+\bibitem[\protect\citeauthoryear{Radford et~al.}{2021}]{bib9}
 \begin{botherref}
 \oauthor{\bsnm{Radford}, \binits{A.}},
 \oauthor{\bsnm{Kim}, \binits{J.W.}},
@@ -233,168 +180,173 @@ EMNLP 2024. Preprint at \url{https://arxiv.org/abs/2409.14703}
 \oauthor{\bsnm{Clark}, \binits{J.}},
 \oauthor{\bsnm{Krueger}, \binits{G.}},
 \oauthor{\bsnm{Sutskever}, \binits{I.}}:
-{Learning Transferable Visual Models From Natural Language Supervision}.
-Preprint at \url{https://arxiv.org/abs/2103.00020}
-(2021)
+Learning Transferable Visual Models from Natural Language Supervision
+(2021).
+\doiurl{10.48550/arXiv.2103.00020} .
+\url{https://arxiv.org/abs/2103.00020}
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Clark et~al.}{2020}]{bib10}
+\begin{barticle}
+\bauthor{\bsnm{Clark}, \binits{K.}},
+\bauthor{\bsnm{Luong}, \binits{M.-T.}},
+\bauthor{\bsnm{Le}, \binits{Q.V.}},
+\bauthor{\bsnm{Manning}, \binits{C.D.}}:
+\batitle{{ELECTRA:} pre-training text encoders as discriminators rather than
+  generators}.
+\bjtitle{arXiv preprint arXiv:2003.10555}
+(\byear{2020})
+\doiurl{10.48550/arXiv.2003.10555}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Devlin et~al.}{2018}]{bib11}
+\begin{barticle}
+\bauthor{\bsnm{Devlin}, \binits{J.}},
+\bauthor{\bsnm{Chang}, \binits{M.-W.}},
+\bauthor{\bsnm{Lee}, \binits{K.}},
+\bauthor{\bsnm{Toutanova}, \binits{K.}}:
+\batitle{Bert: Pre-training of deep bidirectional transformers for language
+  understanding}.
+\bjtitle{arXiv preprint arXiv:1810.04805}
+(\byear{2018})
+\doiurl{10.48550/arXiv.1810.04805}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Kumar and Nandakumar}{2022}]{bib12}
+\begin{botherref}
+\oauthor{\bsnm{Kumar}, \binits{G.K.}},
+\oauthor{\bsnm{Nandakumar}, \binits{K.}}:
+Hate-CLIPper: Multimodal Hateful Meme Classification based on Cross-modal
+  Interaction of CLIP Features
+(2022).
+\doiurl{10.48550/arXiv.2210.05916} .
+\url{https://arxiv.org/abs/2210.05916}
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Shah et~al.}{2024}]{bib13}
+\begin{botherref}
+\oauthor{\bsnm{Shah}, \binits{S.B.}},
+\oauthor{\bsnm{Shiwakoti}, \binits{S.}},
+\oauthor{\bsnm{Chaudhary}, \binits{M.}},
+\oauthor{\bsnm{Wang}, \binits{H.}}:
+MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification
+(2024).
+\doiurl{10.48550/arXiv.2409.14703} .
+\url{https://arxiv.org/abs/2409.14703}
 \end{botherref}
 \endbibitem
 
 %%% 14
-\bibitem[\protect\citeauthoryear{Clark et~al.}{2020}]{bib14}
+\bibitem[\protect\citeauthoryear{Pramanick et~al.}{2021}]{bib14}
 \begin{botherref}
-\oauthor{\bsnm{Clark}, \binits{K.}},
-\oauthor{\bsnm{Luong}, \binits{M.-T.}},
-\oauthor{\bsnm{Le}, \binits{Q.V.}},
-\oauthor{\bsnm{Manning}, \binits{C.D.}}:
-{ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators}.
-ICLR 2020. Preprint at \url{https://arxiv.org/abs/2003.10555}
-(2020)
+\oauthor{\bsnm{Pramanick}, \binits{S.}},
+\oauthor{\bsnm{Sharma}, \binits{S.}},
+\oauthor{\bsnm{Dimitrov}, \binits{D.}},
+\oauthor{\bsnm{Akhtar}, \binits{M.S.}},
+\oauthor{\bsnm{Nakov}, \binits{P.}},
+\oauthor{\bsnm{Chakraborty}, \binits{T.}}:
+{MOMENTA}: A Multimodal Framework for Detecting Harmful Memes and Their Targets
+(2021).
+\doiurl{10.48550/arXiv.2109.05184} .
+\url{https://arxiv.org/abs/2109.05184}
 \end{botherref}
 \endbibitem
 
 %%% 15
-\bibitem[\protect\citeauthoryear{Sharma et~al.}{2020}]{bib15}
+\bibitem[\protect\citeauthoryear{Sharma et~al.}{2024}]{bib15}
 \begin{botherref}
-\oauthor{\bsnm{Sharma}, \binits{C.}},
-\oauthor{\bsnm{Bhageria}, \binits{D.}},
-\oauthor{\bsnm{Scott}, \binits{W.}},
-\oauthor{\bsnm{PYKL}, \binits{S.}},
-\oauthor{\bsnm{Das}, \binits{A.}},
-\oauthor{\bsnm{Chakraborty}, \binits{T.}},
-\oauthor{\bsnm{Pulabaigari}, \binits{V.}},
-\oauthor{\bsnm{Gamback}, \binits{B.}}:
-{SemEval-2020 Task 8: Memotion Analysis--The Visuo-Lingual Metaphor!}
-Preprint at \url{https://arxiv.org/abs/2008.03781}
-(2020)
+\oauthor{\bsnm{Sharma}, \binits{S.}},
+\oauthor{\bsnm{Ramaneswaran}, \binits{S.}},
+\oauthor{\bsnm{Akhtar}, \binits{M.S.}},
+\oauthor{\bsnm{Chakraborty}, \binits{T.}}:
+Meme Emotion Detection: Benchmark Dataset ({Memotion} 3) and Deep Learning
+  Baseline
+(2024).
+\doiurl{10.48550/arXiv.2403.10279} .
+\url{https://arxiv.org/abs/2403.10279}
 \end{botherref}
 \endbibitem
 
 %%% 16
-\bibitem[\protect\citeauthoryear{Sharma et~al.}{2024}]{bib16}
-\begin{botherref}
-\oauthor{\bsnm{Sharma}, \binits{S.}},
-\oauthor{\bsnm{S}, \binits{R.}},
-\oauthor{\bsnm{Akhtar}, \binits{M.S.}},
-\oauthor{\bsnm{Chakraborty}, \binits{T.}}:
-{Emotion-Aware Multimodal Fusion for Meme Emotion Detection}.
-Accepted to IEEE Transactions on Affective Computing. Preprint at
-  \url{https://arxiv.org/abs/2403.10279}
-(2024)
-\end{botherref}
+\bibitem[\protect\citeauthoryear{Ratner et~al.}{2016}]{bib16}
+\begin{bchapter}
+\bauthor{\bsnm{Ratner}, \binits{A.}},
+\bauthor{\bsnm{Sa}, \binits{C.D.}},
+\bauthor{\bsnm{Wu}, \binits{S.}},
+\bauthor{\bsnm{Selsam}, \binits{D.}},
+\bauthor{\bsnm{R{\'e}}, \binits{C.}}:
+\bctitle{Data programming: Creating large training sets, quickly}.
+In: \bbtitle{Advances in Neural Information Processing Systems},
+vol. \bseriesno{29},
+pp. \bfpage{3567}--\blpage{3575}
+(\byear{2016}).
+\doiurl{10.48550/arXiv.1605.07723} .
+\burl{https://arxiv.org/abs/1605.07723}
+\end{bchapter}
 \endbibitem
 
 %%% 17
-\bibitem[\protect\citeauthoryear{Metzler et~al.}{2021}]{bib17}
-\begin{botherref}
-\oauthor{\bsnm{Metzler}, \binits{H.}},
-\oauthor{\bsnm{Baginski}, \binits{H.}},
-\oauthor{\bsnm{Niederkrotenthaler}, \binits{T.}},
-\oauthor{\bsnm{Garcia}, \binits{D.}}:
-{Detecting Potentially Harmful and Protective Suicide-related Content on
-  Twitter: A Machine Learning Approach}.
-Preprint at \url{https://arxiv.org/abs/2112.04796}
-(2021)
-\end{botherref}
-\endbibitem
-
-%%% 18
-\bibitem[\protect\citeauthoryear{Gaur et~al.}{2021}]{bib18}
-\begin{botherref}
-\oauthor{\bsnm{Gaur}, \binits{M.}},
-\oauthor{\bsnm{Aribandi}, \binits{V.}},
-\oauthor{\bsnm{Alambo}, \binits{A.}},
-\oauthor{\bsnm{Kursuncu}, \binits{U.}},
-\oauthor{\bsnm{Thirunarayan}, \binits{K.}},
-\oauthor{\bsnm{Beich}, \binits{J.}},
-\oauthor{\bsnm{Pathak}, \binits{J.}},
-\oauthor{\bsnm{Sheth}, \binits{A.}}:
-{Characterization of Time-variant and Time-invariant Assessment of Suicidality
-  on Reddit using C-SSRS}.
-Preprint at \url{https://arxiv.org/abs/2104.04140}
-(2021)
-\end{botherref}
-\endbibitem
-
-%%% 19
-\bibitem[\protect\citeauthoryear{Antypas et~al.}{2025}]{bib19}
+\bibitem[\protect\citeauthoryear{Antypas et~al.}{2024}]{bib17}
 \begin{botherref}
 \oauthor{\bsnm{Antypas}, \binits{D.}},
 \oauthor{\bsnm{Sen}, \binits{I.}},
 \oauthor{\bsnm{Perez-Almendros}, \binits{C.}},
 \oauthor{\bsnm{Camacho-Collados}, \binits{J.}},
 \oauthor{\bsnm{Barbieri}, \binits{F.}}:
-{Sensitive Content Classification in Social Media: A Holistic Resource and
-  Evaluation}.
-Accepted at the 9th Workshop on Online Abuse and Harms. Preprint at
-  \url{https://arxiv.org/abs/2411.19832}
-(2025)
+Sensitive Content Classification in Social Media: A Holistic Resource and
+  Evaluation
+(2024).
+\doiurl{10.48550/arXiv.2411.19832} .
+\url{https://arxiv.org/abs/2411.19832}
 \end{botherref}
 \endbibitem
 
-%%% 20
-\bibitem[\protect\citeauthoryear{Devlin et~al.}{2019}]{bib20}
-\begin{botherref}
-\oauthor{\bsnm{Devlin}, \binits{J.}},
-\oauthor{\bsnm{Chang}, \binits{M.-W.}},
-\oauthor{\bsnm{Lee}, \binits{K.}},
-\oauthor{\bsnm{Toutanova}, \binits{K.}}:
-{BERT: Pre-training of Deep Bidirectional Transformers for Language
-  Understanding}.
-Preprint at \url{https://arxiv.org/abs/1810.04805}
-(2019)
-\end{botherref}
-\endbibitem
-
-%%% 21
-\bibitem[\protect\citeauthoryear{Lykouris and Weng}{2025}]{bib21}
+%%% 18
+\bibitem[\protect\citeauthoryear{Lykouris and Weng}{2024}]{bib18}
 \begin{botherref}
 \oauthor{\bsnm{Lykouris}, \binits{T.}},
 \oauthor{\bsnm{Weng}, \binits{W.}}:
-{Learning to Defer in Congested Systems: The AI-Human Interplay}.
-Preprint at \url{https://arxiv.org/abs/2402.12237}
-(2025)
+Learning to Defer in Congested Systems: The {AI-Human} Interplay
+(2024).
+\doiurl{10.48550/arXiv.2402.12237} .
+\url{https://arxiv.org/abs/2402.12237}
 \end{botherref}
 \endbibitem
 
-%%% 22
-\bibitem[\protect\citeauthoryear{Wang et~al.}{2023}]{bib22}
+%%% 19
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2023}]{bib19}
 \begin{botherref}
 \oauthor{\bsnm{Wang}, \binits{H.}},
 \oauthor{\bsnm{Hee}, \binits{M.S.}},
 \oauthor{\bsnm{Awal}, \binits{M.R.}},
 \oauthor{\bsnm{Choo}, \binits{K.T.W.}},
 \oauthor{\bsnm{Lee}, \binits{R.K.-W.}}:
-{Evaluating GPT-3 Generated Explanations for Hateful Content Moderation}.
-Preprint at \url{https://arxiv.org/abs/2305.17680}
-(2023)
+Evaluating {GPT-3} Generated Explanations for Hateful Content Moderation
+(2023).
+\doiurl{10.48550/arXiv.2305.17680} .
+\url{https://arxiv.org/abs/2305.17680}
 \end{botherref}
 \endbibitem
 
-%%% 23
-\bibitem[\protect\citeauthoryear{Ratner et~al.}{2017}]{bib23}
-\begin{botherref}
-\oauthor{\bsnm{Ratner}, \binits{A.}},
-\oauthor{\bsnm{De~Sa}, \binits{C.}},
-\oauthor{\bsnm{Wu}, \binits{S.}},
-\oauthor{\bsnm{Selsam}, \binits{D.}},
-\oauthor{\bsnm{Re}, \binits{C.}}:
-{Data Programming: Creating Large Training Sets, Quickly}.
-Advances in Neural Information Processing Systems 29, 3567--3575. Preprint at
-  \url{https://arxiv.org/abs/1605.07723}
-(2017)
-\end{botherref}
-\endbibitem
-
-%%% 24
-\bibitem[\protect\citeauthoryear{Jiang et~al.}{2024}]{bib24}
+%%% 20
+\bibitem[\protect\citeauthoryear{Jiang et~al.}{2024}]{bib20}
 \begin{botherref}
 \oauthor{\bsnm{Jiang}, \binits{Y.}},
 \oauthor{\bsnm{Tan}, \binits{Y.}},
 \oauthor{\bsnm{Yue}, \binits{X.}}:
-{RapGuard: Safeguarding Multimodal Large Language Models via Rationale-aware
-  Defensive Prompting}.
-Preprint at \url{https://arxiv.org/abs/2412.18826}
-(2024)
+{RapGuard}: Safeguarding Multimodal Large Language Models via Rationale-aware
+  Defensive Prompting
+(2024).
+\doiurl{10.48550/arXiv.2412.18826} .
+\url{https://arxiv.org/abs/2412.18826}
 \end{botherref}
 \endbibitem
 
